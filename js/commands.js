@@ -105,11 +105,11 @@ explore = [
 banner = [
 "     __          ,_ _",                          
 "    / ()  ()    /| | |         ,_   _|   _  ,_",
-"   |      /\     | | |  |  |  /  | / |  |/ /  |",
-"    \___//(_)    | | |_/ \/|_/   |/\/|_/|_/   |/",
-"   (|   |         ,   _  |\       _  _| ",        
-"    |   |  /|/|  / \_/ \_|/ |  |_|/ / | ",        
-"     \_/\_/ | |_/ \/ \_/ |_/ \/  |_/\/|_/ ",  
+"   |      /&bsol;     | | |  |  |  /  | / |  |/ /  |",
+"    &bsol;___//(_)    | | |_/ &bsol;/|_/   |/&bsol;/|_/|_/   |/",
+"   (|   |         ,   _  |&bsol;       _  _| ",        
+"    |   |  /|/|  / &bsol;_/ &bsol;_|/ |  |_|/ / | ",        
+"     &bsol;_/&bsol;_/ | |_/ &bsol;/ &bsol;_/ |_/ &bsol;/  |_/&bsol;/|_/ ",  
 "   ",   
                                                 
   '<span class="color2">Hello World! Are you ready to solve the mystery of the 2023 Advanced Topics in CS class?</span>',
