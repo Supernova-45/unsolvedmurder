@@ -1,67 +1,64 @@
-var curius = "https://curius.app/linda2";
-var bookshelf = "https://bookshelf.website/lkt/";
-var twitter = "https://www.twitter.com/lktong_/";
-var password = "fkcodes";
-var linkedin = "https://www.linkedin.com/in/lindaktong/";
-var goodreads = "https://www.goodreads.com/user/show/45442005-lt/";
-var github = "https://github.com/lindaktong/";
-var email = 'mailto:lkt@stanford.edu';
-
-whois = [
+scenedescription = [
   "<br>",
-  "hey, i'm linda‹",
-  "i study cs & classics at stanford",
-  "in my free time, i like reading books and longform articles, going on walks, and making things",
-  "i'm also a fellow @pearvc! reach out if you're starting something new or interested in learning more",
+  "The victim is Ava Teng, a sophomore at Polytechnic School.  The murder took place in the kitchen.  While the stiFf body has aLready been removed, the grOund is still stained with blood with tape marking the outline of the bOdy.  The kitchen looks just like a normal kitchen with a counteR and fridge.  On the counter is a bowl of salad and a half finished pizza.",
   "<br>"
 ];
 
-whoami = [
+suspects = [
   "<br>",
-  "The paradox of â€œWho am I?â€ is: we never know, but, we constantly find out.",
+  "- James Miller",
+  "- Alexandra Kim",
+  "- Kaylin Yagura",
+  "- Katie Sam",
   "<br>"
 ];
 
-social = [
+mrwhite = [
   "<br>",
-  'curius         <a href="' + curius + '" target="_blank">curius/linda2' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/lktong_' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/lindaktong' + "</a>",
-  'goodreads      <a href="' + goodreads + '" target="_blank">goodreads/user/show/45442005-lt' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/lindaktong' + "</a>",
+  "O⅂⅂ƎH",
   "<br>"
 ];
 
-secret = [
+avateng = [
   "<br>",
-  '<span class="command">sudo</span>           Only use if you\'re admin',
+  'Ah, poor Ava Teng, the victim murdered in her own house.',
+  'Her own house ? Who\’s house is this anyway ? I wonder what the address is...',
   "<br>"
 ];
 
-projects = [
+address = [
   "<br>",
-  "still curating! most projects are offline or on github.",
+  "Huh, it looks like Ava isn\’t the owner after all...",
   "<br>"
 ];
 
-help = [
+floor = [
   "<br>",
-  '<span class="command">whois</span>          hi there!',
-  '<span class="command">whoami</span>         who are you?',
-  '<span class="command">bookshelf</span>      hey mtv, welcome to my lib',
-  '<span class="command">social</span>         catch me around the web',
-  '<span class="command">secret</span>         find the password',
-  '<span class="command">projects</span>       view coding projects',
-  '<span class="command">history</span>        view command history',
-  '<span class="command">help</span>           (you\'re here)',
-  '<span class="command">email</span>          say hi! i don\'t bite :)',
-  '<span class="command">clear</span>          clear terminal',
-  '<span class="command">banner</span>         display the header',
+  "Fascinating, some of the floor’s bloodstains look... old.  Maybe they aren’t from the current murder?  Wait, is that a knife?!",
+  "<br>"
+];
+
+explore = [
+  "<br>",
+  '<span class="command">scenedescription</span>',
+  '<span class="command">suspects</span>',
+  '<span class="command">mrwhite</span>',
+  '<span class="command">avateng</span>',
+  '<span class="command">address</span>',
+  '<span class="command">floor</span>',
+  '<span class="command">knife</span>',
+  '<span class="command">fridge</span>',
+  '<span class="command">stew</span>',
+  '<span class="command">down</span>',
+  '<span class="command">door</span>',
+  '<span class="command">run</span>',
+  '<span class="command">fight</span>',
+  '<span class="command">wakeup</span>',
   "<br>",
 ];
 
 banner = [
-"    __          ,_ _",                          
+"     __          ,_ _",                          
 "    / ()  ()    /| | |         ,_   _|   _  ,_",
 "   |      /\     | | |  |  |  /  | / |  |/ /  |",
 "    \___//(_)    | | |_/ \/|_/   |/\/|_/|_/   |/",
@@ -70,7 +67,7 @@ banner = [
 "     \_/\_/ | |_/ \/ \_/ |_/ \/  |_/\/|_/ ",  
 "   ",   
                                                 
-  '<span class="color2">hello world, are you ready to solve a CS class mystery?</span>',
-  "<span class=\"color2\">to start, type</span> <span class=\"command\">'explore'</span><span class=\"color2\">.</span>",
+  '<span class="color2">Hello World! Are you ready to solve the mystery of the 2023 Advanced Topics in CS class?</span>',
+  "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'explore'</span><span class=\"color2\">.</span>",
   "         "
 ];
