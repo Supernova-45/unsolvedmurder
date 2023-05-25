@@ -20,7 +20,6 @@ suspects = [
 
 mrwhite = [
   "<br>",
-  "O⅂⅂ƎH",
   "<br>"
 ];
 
@@ -61,7 +60,8 @@ fridge = [
 
 stew = [
   "<br>",
-  "",
+  "Upon closer inspection, the stew looks … strange.  It does not look like any stew you’ve ever seen before …
+",
   "<br>"
 ];
 
@@ -71,6 +71,13 @@ down = [
 
 door = [
 
+];
+
+run = [
+  "<br>",
+  "You turn to flee but are stopped as a knife pieces your chest.  The last",
+  "words you hear are \'You Failed.\'",
+  "<br>"
 ];
 
 fight = [
