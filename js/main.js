@@ -3,6 +3,7 @@ var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
+var murderscreen = "img/filler_image.jpg";
 
 var git = 0;
 var pw = false;
@@ -90,6 +91,7 @@ function commander(cmd) {
       break;
     case "mrwhite":
       addLine("opening his case file...", "color2", 80);
+      showImage(murderscreen);
       loopLines(mrwhite, "color2 margin", 80);
       // newTab(mrwhite);
       break;
@@ -123,15 +125,15 @@ function commander(cmd) {
     case "wakeup":
       loopLines(wakeup, "color2 margin", 80);
       break;
+    case "secret":
+      liner.classList.add("password");
+      pw = true;
+      break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
-      break;
-    case "secret":
-      liner.classList.add("password");
-      pw = true;
       break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
@@ -187,4 +189,10 @@ function loopLines(name, style, time) {
   name.forEach(function(item, index) {
     addLine(item, style, index * time);
   });
+}
+
+function showImage(path) {
+    let image = document.getElementById("img");
+    image.src = path
+    document.getElementById("img").style.display = "none";
 }

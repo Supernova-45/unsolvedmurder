@@ -1,3 +1,5 @@
+var password = "murder";
+
 scenedescription = [
   "<br>",
   "The victim is Ava Teng, a sophomore at Polytechnic School.",
@@ -94,18 +96,6 @@ explore = [
   "<br>",
   '<span class="command">scenedescription</span>',
   '<span class="command">suspects</span>',
-  '<span class="command">mrwhite</span>',
-  '<span class="command">avateng</span>',
-  '<span class="command">address</span>',
-  '<span class="command">floor</span>',
-  '<span class="command">knife</span>',
-  '<span class="command">fridge</span>',
-  '<span class="command">stew</span>',
-  '<span class="command">down</span>',
-  '<span class="command">door</span>',
-  '<span class="command">run</span>',
-  '<span class="command">fight</span>',
-  '<span class="command">wakeup</span>',
   "<br>",
 ];
 
