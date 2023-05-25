@@ -59,7 +59,8 @@ fridge = [
 
 stew = [
   "<br>",
-  "",
+  "Upon closer inspection, the stew looks … strange.  It does not look like any stew you’ve ever seen before …
+",
   "<br>"
 ];
 
@@ -71,7 +72,7 @@ door = [
 
 ];
 
-knife = [
+run = [
   "<br>",
   "You turn to flee but are stopped as a knife pieces your chest.  The last",
   "words you hear are \'You Failed.\'",
