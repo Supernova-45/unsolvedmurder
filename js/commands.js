@@ -46,7 +46,9 @@ floor = [
 
 knife = [
   "<br>",
-  "",
+  "<img src=\"/img/filler_image.jpg\" width=500 height=600>",
+  "You turn to flee but are stopped as a knife pieces your chest.  The last",
+  "words you hear are \'You Failed.\'",
   "<br>"
 ];
 
@@ -69,13 +71,6 @@ down = [
 
 door = [
 
-];
-
-knife = [
-  "<br>",
-  "You turn to flee but are stopped as a knife pieces your chest.  The last",
-  "words you hear are \'You Failed.\'",
-  "<br>"
 ];
 
 fight = [
