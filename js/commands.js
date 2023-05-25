@@ -20,7 +20,6 @@ suspects = [
 
 mrwhite = [
   "<br>",
-  "O⅂⅂ƎH",
   "<br>"
 ];
 
