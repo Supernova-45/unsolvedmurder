@@ -79,18 +79,49 @@ function enterKey(e) {
 
 function commander(cmd) {
   switch (cmd.toLowerCase()) {
-    case "help":
-      loopLines(help, "color2 margin", 80);
+    case "explore":
+      loopLines(explore, "color2 margin", 80);
       break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
+    case "scenedescription":
+      loopLines(scenedescription, "color2 margin", 80);
       break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
+    case "suspects":
+      loopLines(suspects, "color2 margin", 80);
       break;
-    case "bookshelf":
-      addLine("opening bookshelf...", "color2", 80);
-      newTab(bookshelf);
+    case "mrwhite":
+      addLine("opening his case file...", "color2", 80);
+      loopLines(mrwhite, "color2 margin", 80);
+      // newTab(mrwhite);
+      break;
+    case "avateng":
+      loopLines(avateng, "color2 margin", 80);
+      break;
+    case "address":
+      loopLines(address, "color2 margin", 80);
+      break;
+    case "floor":
+      loopLines(floor, "color2 margin", 80);
+      break;
+    case "knife":
+      loopLines(knife, "color2 margin", 80);
+      break;
+    case "fridge":
+      loopLines(fridge, "color2 margin", 80);
+      break;
+    case "down":
+      loopLines(down, "color2 margin", 80);
+      break;
+    case "door":
+      loopLines(door, "color2 margin", 80);
+      break;
+    case "run":
+      loopLines(run, "color2 margin", 80);
+      break;
+    case "fight":
+      loopLines(fight, "color2 margin", 80);
+      break;
+    case "wakeup":
+      loopLines(wakeup, "color2 margin", 80);
       break;
     case "sudo":
       addLine("Oh no, you're not admin...", "color2", 80);
@@ -98,15 +129,9 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
-      break;
     case "secret":
       liner.classList.add("password");
       pw = true;
-      break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
       break;
     case "password":
       addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
@@ -115,10 +140,6 @@ function commander(cmd) {
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
-      break;
-    case "email":
-      addLine('Opening mailto:<a href="mailto:lkt@stanford.edu">lkt@stanford.edu</a>...', "color2", 80);
-      newTab(email);
       break;
     case "clear":
       setTimeout(function() {
@@ -129,29 +150,8 @@ function commander(cmd) {
     case "banner":
       loopLines(banner, "", 80);
       break;
-    // socials
-    case "bookshelf":
-      addLine("opening bookshelf...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("opening twitter...", "color2", 0);
-      newTab(twitter);
-      break;
-    case "linkedin":
-      addLine("opening linkedin...", "color2", 0);
-      newTab(linkedin);
-      break;
-    case "goodreads":
-      addLine("opening goodreads...", "color2", 0);
-      newTab(goodreads);
-      break;
-    case "github":
-      addLine("opening github...", "color2", 0);
-      newTab(github);
-      break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'explore'</span>.</span>", "error", 100);
       break;
   }
 }
