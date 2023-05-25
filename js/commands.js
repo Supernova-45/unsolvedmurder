@@ -45,7 +45,7 @@ floor = [
 
 knife = [
   "<br>",
-  "<img src=\"/img/filler_image.jpg\" width=500 height=600>",
+  "<img src=\"/img/deathlives.jpg\" width=500 height=600>",
   "You turn to flee but are stopped as a knife pieces your chest.  The last",
   "words you hear are \'You Failed.\'",
   "<br>"
@@ -60,6 +60,7 @@ fridge = [
 
 stew = [
   "<br>",
+  "<img src=\"/img/stew.png\" width=500 height=600>",
   "Upon closer inspection, the stew looks … strange.  It does not look like any stew you’ve ever seen before...",
   "<br>"
 ];
@@ -74,6 +75,7 @@ door = [
 
 run = [
   "<br>",
+  "<img src=\"/img/blackscreen.png\" width=500 height=600>",
   "You turn to flee but are stopped as a knife pieces your chest.  The last",
   "words you hear are \'You Failed.\'",
   "<br>"
