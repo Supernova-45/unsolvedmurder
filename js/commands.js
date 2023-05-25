@@ -60,8 +60,7 @@ fridge = [
 
 stew = [
   "<br>",
-  "Upon closer inspection, the stew looks … strange.  It does not look like any stew you’ve ever seen before …
-",
+  "Upon closer inspection, the stew looks … strange.  It does not look like any stew you’ve ever seen before...",
   "<br>"
 ];
 
