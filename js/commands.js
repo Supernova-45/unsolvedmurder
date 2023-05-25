@@ -38,6 +38,50 @@ floor = [
   "<br>"
 ];
 
+knife = [
+  "<br>",
+  "",
+  "<br>"
+];
+
+fridge = [
+  "<br>",
+  "The fridge looks normal enough with milk, fresh fruit, a bowl of stew, and a plate of dumplings.",
+  "<br>"
+];
+
+stew = [
+  "<br>",
+  "",
+  "<br>"
+];
+
+down = [
+
+];
+
+door = [
+
+];
+
+knife = [
+  "<br>",
+  "You turn to flee but are stopped as a knife pieces your chest.  The last words you hear are \'You Failed.\'",
+  "<br>"
+];
+
+fight = [
+  "<br>",
+  "You pick up the dagger and face off against the murderer.  Upon closer inspection, you recognize that it\’s Mr. White, the teacher of all of the suspects and the victim.  Clutching the dagger, you begin the fight.",
+  "<br>"
+];
+
+wakeup = [
+  "<br>",
+  "You stand in a bloody kitchen.  Our bloody kitchen.  Holding a bag of mystery meat.  Ignoring the bloody mess on the floor, you walk down to make your stew, the only way to quell the unyielding hunger that gnaws at you.  Waiting for your successor.",
+  "<br>"
+];
+
 explore = [
   "<br>",
   '<span class="command">scenedescription</span>',
