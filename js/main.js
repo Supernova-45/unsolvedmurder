@@ -4,7 +4,7 @@ var command = document.getElementById("typer");
 var textarea = document.getElementById("texter"); 
 var terminal = document.getElementById("terminal");
 var hello = "Screen Shot 2023-05-25 at 9.40.24 AM.png";
-var knife = "deathlives.jpg";
+// var knife = "deathlives.jpg";
 var stew = "stew.png";
 var blackscreen = "blackscreen.png";
 
@@ -95,6 +95,9 @@ function commander(cmd) {
       break;
     case "knife":
       loopLines(knife, "color2 margin", 80);
+      break;
+    case "owner":
+      loopLines(owner, "color2 margin", 80);
       break;
     case "mrwhite":
       addLine("opening his case file...", "color2", 80);

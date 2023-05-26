@@ -45,8 +45,9 @@ floor = [
 
 knife = [
   "<br>",
-  "The knife on the floor looks:",
-  "<img src=\"/img/deathlives.jpg\" width=500 height=600>",
+  "The knife on the floor looks like:",
+  "<br>",
+  "<img src=\"/img/deathlives.jpg\" width=500>",
   "<br>"
 ];
 
@@ -54,6 +55,12 @@ fridge = [
   "<br>",
   "The fridge looks normal enough with milk, fresh fruit, a bowl of stew,",
   "and a plate of dumplings.",
+  "<br>"
+];
+
+owner = [
+  "<br>",
+  "01101101 01110010 01110111 01101000 01101001 01110100 01100101",
   "<br>"
 ];
 
