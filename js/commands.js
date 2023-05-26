@@ -47,7 +47,7 @@ knife = [
   "<br>",
   "The knife on the floor looks like:",
   "<br>",
-  "<img src=\"/img/deathlives.jpg\" width=500>",
+  "<img src=\"/img/deathlives1.jpg\" width=500>",
   "<br>"
 ];
 
