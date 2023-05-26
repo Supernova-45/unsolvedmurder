@@ -32,7 +32,7 @@ avateng = [
 
 address = [
   "<br>",
-  "Huh, it looks like Ava isn\’t the owner after all...",
+  "Huh, it looks like Ava isn\’t the <u> owner </u> after all...",
   "<br>"
 ];
 
