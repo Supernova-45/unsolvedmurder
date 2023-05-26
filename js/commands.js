@@ -47,7 +47,7 @@ knife = [
   "<br>",
   "The knife on the floor looks like:",
   "<br>",
-  "<img src=\"/img/deathlives1.jpg\" width=500>",
+  "<img src=\"/img/deathlives1.jpeg\" width=500>",
   "<br>"
 ];
 
@@ -72,7 +72,15 @@ stew = [
 ];
 
 down = [
+  "<br>",
+  "Are you sure you want to go down? (Y/N)",
+  "<br>"
+];
 
+y = [
+  "<br>",
+  "Are you really sure you want to go down? (Y/N)",
+  "<br>"
 ];
 
 door = [

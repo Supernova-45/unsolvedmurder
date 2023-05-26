@@ -118,9 +118,12 @@ function commander(cmd) {
     case "down":
       loopLines(down, "color2 margin", 80);
       break;
+    case "y":
+      loopLines(y, "color2 margin", 80);
+      document.body.style.backgroundColor = "red";
+      break;
     case "door":
       loopLines(door, "color2 margin", 80);
-      break;
     case "run":
       loopLines(run, "color2 margin", 80);
       break;
@@ -167,6 +170,10 @@ function newTab(link) {
   setTimeout(function() {
     window.open(link, "_blank");
   }, 500);
+}
+
+function restoreBackground() {
+  document.body.style.backgroundColor = "#211D1B";
 }
 
 function addLine(text, style, time) {
