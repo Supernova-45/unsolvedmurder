@@ -32,7 +32,7 @@ avateng = [
 
 address = [
   "<br>",
-  "Huh, it looks like Ava isn\’t the <u> owner </u> after all...",
+  "Huh, it looks like Ava isn\’t the <u>owner</u> after all...",
   "<br>"
 ];
 
@@ -45,9 +45,8 @@ floor = [
 
 knife = [
   "<br>",
+  "The knife on the floor looks:",
   "<img src=\"/img/deathlives.jpg\" width=500 height=600>",
-  "You turn to flee but are stopped as a knife pieces your chest.  The last",
-  "words you hear are \'You Failed.\'",
   "<br>"
 ];
 

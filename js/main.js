@@ -93,9 +93,11 @@ function commander(cmd) {
     case "suspects":
       loopLines(suspects, "color2 margin", 80);
       break;
+    case "knife":
+      loopLines(knife, "color2 margin", 80);
+      break;
     case "mrwhite":
       addLine("opening his case file...", "color2", 80);
-      showImage(hello);
       loopLines(mrwhite, "color2 margin", 80);
       // newTab(mrwhite);
       break;
@@ -107,10 +109,6 @@ function commander(cmd) {
       break;
     case "floor":
       loopLines(floor, "color2 margin", 80);
-      break;
-    case "knife":
-      loopLines(knife, "color2 margin", 80);
-      showImage(knife);
       break;
     case "fridge":
       loopLines(fridge, "color2 margin", 80);
