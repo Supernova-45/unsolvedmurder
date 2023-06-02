@@ -91,11 +91,18 @@ run = [
   "<br>"
 ];
 
-fight = [
+i_am_defeated = [
   "<br>",
-  "You pick up the dagger and face off against the murderer.  Upon closer", "inspection, you recognize that it\’s Mr. White, the teacher of all of the", "suspects and the victim.  Clutching the dagger, you begin the fight.",
+  "You stand above the killer holding the bloody dagger panting.  You stare at him in shock as he stands up despite the fatal wound in his chest.  'You pass,' he states simply before crumbling to dust leaving behind a dark shadow which enters your body.  Convulsing, you pass out.  77 61 6b 65 75 70",
   "<br>"
 ];
+
+fight = [
+  "<br>",
+  "You pick up the dagger and face off against the murderer.  Upon closer", "inspection, you recognize that it\’s Mr. White, the teacher of all of the", "suspects and the victim.  Clutching the dagger, you begin the fight. https://forms.gle/pu7YgBkYVzkLyYzp7",
+  "<br>"
+];
+
 
 wakeup = [
   "<br>",
