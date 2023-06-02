@@ -66,11 +66,15 @@ stew = [
 ];
 
 down = [
-
+"<br>",
+  "After descending, you come across a rusty door in a dark, stone hallway.",
+  "<br>"
 ];
 
 door = [
-
+"<br>",
+  "The door has two locks.  One needs a password with 10 letters.  The other needs a 5 digit number.",
+  "<br>"
 ];
 
 run = [
