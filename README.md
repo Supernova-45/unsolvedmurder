@@ -1,6 +1,6 @@
 # unsolvedmurder
 
-unsolvedmurder
+There's a murder in the Advanced Topics in CS class? *gasp*
 
 ## Usage
 
