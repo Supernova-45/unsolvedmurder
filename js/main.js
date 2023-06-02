@@ -334,7 +334,7 @@ function game(){
 	playGame();
 	
 }
-}
+
 
 
 
