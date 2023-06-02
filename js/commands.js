@@ -101,7 +101,7 @@ wakeup = [
   "<br>",
   "You stand in a bloody kitchen.  Our bloody kitchen.  Holding a bag of mystery", "meat.  Ignoring the bloody mess on the floor, you walk down to make your",
   "stew the only way to quell the unyielding hunger that gnaws at you. Waiting",
-  "for your successor.",
+  "for your successor. The end.",
   "<br>"
 ];
 
