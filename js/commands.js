@@ -1,4 +1,3 @@
-var password = "murder";
 
 scenedescription = [
   "<br>",

@@ -1,3 +1,5 @@
+// inspiration and base code from Linda Tong; password doesn't work
+ 
 var before = document.getElementById("before");
 var liner = document.getElementById("liner");
 var command = document.getElementById("typer"); 
@@ -6,6 +8,7 @@ var terminal = document.getElementById("terminal");
 var hello = "Screen Shot 2023-05-25 at 9.40.24 AM.png";
 var stew = "stew1.png";
 var blackscreen = "blackscreen.png";
+var password = "murder";
 
 
 var git = 0;
@@ -19,12 +22,6 @@ setTimeout(function() {
 }, 100);
 
 window.addEventListener("keyup", enterKey);
-
-console.log(
-  "%cYou hacked my password!ðŸ˜ ",
-  "color: #04ff00; font-weight: bold; font-size: 24px;"
-);
-console.log("%cPassword: '" + password + "' - I wonder what it does?ðŸ¤”", "color: grey");
 
 //init
 textarea.value = "";
@@ -59,7 +56,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("guest@lindaterminal:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@murderterminal:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -137,15 +134,6 @@ function commander(cmd) {
       liner.classList.add("password");
       pw = true;
       break;
-    case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
-      }, 1000); 
-      break;
-    case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!ðŸ˜‚</span>", "error", 100);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
@@ -208,6 +196,7 @@ function showImage(path) {
     image.src = path
     document.getElementById("img").style.display = "none";
 }
+
 
 
 
