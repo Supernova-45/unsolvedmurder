@@ -19,6 +19,7 @@ suspects = [
 
 mrwhite = [
   "<br>",
+  "'Hello' * 180 maybe?"
   "<br>"
 ];
 
@@ -44,10 +45,8 @@ floor = [
 
 knife = [
   "<br>",
-  "The knife on the floor looks like:",
+  "The knife on the floor looks normal enough.  However, on one side is the word '1st mine'",
   "<br>",
-  "<img src=\"/img/deathlives1.jpeg\" width=500>",
-  "<br>"
 ];
 
 fridge = [
@@ -78,7 +77,13 @@ down = [
 
 door = [
 "<br>",
-  "The door has two locks.  One needs a password with 10 letters.  The other needs a 5 digit number.",
+  "The door has one lock.  It seems like it needs a word combined with a number with no spaces to unlock it.",
+  "<br>"
+];
+
+mine07734 = [
+"<br>",
+  "The door opens revealing a small room decorated with … BONES?  Human bones?  Uh oh.  As you look around at the macabre decorations, you spot a figure in the corner slowly approaching you.  A knife glints in their hand, identical to the one you saw before.  Next to you is a curved dagger?  Are you going to run?  Or are you going to fight?",
   "<br>"
 ];
 
