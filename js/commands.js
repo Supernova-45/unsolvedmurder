@@ -77,7 +77,7 @@ down = [
 
 door = [
 "<br>",
-  "The door has one lock.  It seems like it needs a word combined with a number with no spaces to unlock it.",
+  "The door has one lock.  It seems like it needs a four letter word combined with a five digit number with no spaces to unlock it.",
   "<br>"
 ];
 
