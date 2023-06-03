@@ -2,6 +2,8 @@
 
 There's a murder in the Advanced Topics in CS class? *gasp*
 
+Play here: <https://supernova-45.github.io/unsolvedmurder/>
+
 ## Usage
 
 It's a text based game.  Type in commands that you have such as /scenedescription or /suspects.  If the command does not exist, nothing will 
