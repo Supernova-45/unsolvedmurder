@@ -45,8 +45,8 @@ floor = [
 
 knife = [
   "<br>",
-  "The knife on the floor looks like:",
-  "<img src=\"/img/deathlives.jpg\" width=500 height=600>",
+  "The knife on the floor looks like this:",
+  "<img src=\"/img/knife.jpg\" width=500>",
   "<br>"
 ];
 
