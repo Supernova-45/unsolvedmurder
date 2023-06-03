@@ -19,7 +19,7 @@ suspects = [
 
 mrwhite = [
   "<br>",
-  "'Hello' * 180 maybe?"
+  "'Hello' * 180 maybe?",
   "<br>"
 ];
 
@@ -46,7 +46,7 @@ floor = [
 knife = [
   "<br>",
   "The knife on the floor looks like:",
-  "<img src=\"/img/murderlives.png\" width=500 height=600>",
+  "<img src=\"/img/deathlives.jpg\" width=500 height=600>",
   "<br>"
 ];
 
