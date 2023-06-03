@@ -45,8 +45,9 @@ floor = [
 
 knife = [
   "<br>",
-  "The knife on the floor looks normal enough.  However, on one side is the word '1st mine'",
-  "<br>",
+  "The knife on the floor looks like:",
+  "<img src=\"/img/murderlives.png\" width=500 height=600>",
+  "<br>"
 ];
 
 fridge = [
@@ -77,11 +78,11 @@ down = [
 
 door = [
 "<br>",
-  "The door has one lock.  It seems like it needs a four letter word combined with a five digit number with no spaces to unlock it.",
+  "The door has one lock.  It seems like it needs a two five-letter words combined with a five digit number with no spaces to unlock it.",
   "<br>"
 ];
 
-mine07734 = [
+deathlives07734 = [
 "<br>",
   "The door opens revealing a small room decorated with … BONES?  Human bones?  Uh oh.  As you look around at the macabre decorations, you spot a figure in the corner slowly approaching you.  A knife glints in their hand, identical to the one you saw before.  Next to you is a curved dagger?  Are you going to run?  Or are you going to fight?",
   "<br>"
